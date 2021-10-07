@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    font-family: font-family: 'Arapey', serif;
+}
+header {
+    text-align: center;
+    background: purple;
+    padding: 1rem;
+}
+header h1 {
+    margin-top: 0;
+}
+nav a {
+    margin: 1rem;
+    color: rgb(rgb(177, 128, 166);
+    font-weight: 500;
+    line-height: 2em;
+}
+nav a:hover{
+    color: rgb(105, 129, 150);
+}
+main {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 0 .5rem;
+}
+section {
+    background: purple;
+    padding: 1rem;
+    border-left: .5rem solid rgb(105, 129, 150);
+}
+section h3 {
+    background: mediumorchid;
+    color: whitesmoke;
+    margin: 0;
+    padding: 1rem;
+}
+section p {
+    background: lightslategrey;
+    color: whitesmoke;
+    margin: 0;
+    padding: 1rem;
+}
+img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+}
+footer {
+    text-align: center;
+    background: lightblue;
+    color: whitesmoke;
+    padding: 2rem;
+}
+</body>
