@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: font-family: 'Arapey', serif;
+    font-family: 'Arapey', serif;
 }
 header {
     text-align: center;
@@ -12,7 +12,7 @@ header h1 {
 }
 nav a {
     margin: 1rem;
-    color: rgb(rgb(177, 128, 166);
+    color: rgb(177, 128, 166);
     font-weight: 500;
     line-height: 2em;
 }
@@ -52,4 +52,3 @@ footer {
     color: whitesmoke;
     padding: 2rem;
 }
-</body>
