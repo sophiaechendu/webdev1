@@ -17,5 +17,8 @@
      
 }
 .acting {
-    background-image: url("file:///Users/lulu/Desktop/acting1.gif") ;
+    background-image: url("file:///Users/lulu/Desktop/acting1.gif");
+    left: 50px;
+    top: 50px;
+    z-index: 900;
 }
