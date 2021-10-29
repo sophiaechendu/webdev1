@@ -1,43 +1,77 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(pinkenergy.jpg);
+}
 .page-title {
     color: darkmagenta;
     font-size: 5rem;
     text-align: center;
     width: 300px;
     height: 300px;
-    background: rgb(red, green, blue);
+    background: rgb(84, 185, 84);
     font-size: 2rem;
     color: white;
     padding: 2rem;
     border: 1rem solid crimson;
+    font-family: 'Crimson Text', serif;
+}
 
+h1 {
+    color: blue;
+}
+p {
+    color: magenta;
 }
 .purple-border {
-    border: 2rem solid purple;
+    border: 3rem solid purple;
 }
 .acting {
-    background-image: url("file:///Users/lulu/Desktop/acting1.gif");
-    left: 50px;
-    top: 50px;
-    z-index: 900;
+    position: absolute;
+    top: 130px;
+    bottom: 10px;
+    right: 100px;
+    left: 550px;
+}
+.singing {
+    position: absolute;
+    top: 400px;
+    bottom: 10px;
+    right: 100px;
+    left: 550px;
+}
+.painting {
+    position: absolute;
+    top: 650px;
+    bottom: 10px;
+    right: 100px;
+    left: 550px;
+}
+.cool {
+    position: absolute;
+    top: 950px;
+    bottom: 10px;
+    right: 1000px;
+    left: 580px;
+}
+.butterfly {
+    position: absolute;
+    top: 1100px;
+    bottom: 10px;
+    right: 1000px;
+    left: 600px;
+}
 .box {
     width: 200px;
     height: 200px;
     background: purple;
     margin: 1rem;
 }
-
-body h1 {
-    color: mediumblue;
-}
-
-p {
-    color: magenta;
-}
-
 #special-box {
     color: white;
-    background: lightpink;
+    background-color: magenta;
     margin: 1rem;
+    width: 200px;
+    height: 200px;
 }
 .box {
     width: 200px;
@@ -46,43 +80,33 @@ p {
     margin: 1rem;
 }
 .funky-border {
-    border: 1rem dashed magenta;
+    border: 1rem dashed blue;
 }
 .absolute {
-    border: 1rem dotted greenyellow;
-    width: unset;
-    height: unset;
-    background: turquoise;
-    position: static; 
-
-    bottom: 100px;
-    top: 100px;
-    right: 100px;
-    left: 200px;
+    border: 1rem;
+    position: magenta;
 }
 .relative {
     position: relative;
-    left: 100px;
-    top: 300px;
+    left: 0px;
+    top: 0px;
     background: blue;
-    width: 50px;
+    width: 20px;
     height: 50px;
 }
 .box {
-    width: 100px;
-    height: 100px;
-    border: 1rem green;
+    width: 200px;
+    height: 200px;
+    border: 1rem funky border;
     margin: 1rem;  
 }
 .fixed {
     position: fixed;
-    top: 50%;
-    left: 50%;
+    top: 27%;
+    left: 69%;
     transform: translate(-50%, -50%);
-    width: 400px;
-    height: 400px;
-    background: lightskyblue;
+    background: blue;
 }
 img {
-    max-width: 1rem;
+    max-width: 20rem;
 }
