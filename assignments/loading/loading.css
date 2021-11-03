@@ -1,0 +1,30 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: pink;
+    border: 1rem solid rgb(76, 161, 154);
+
+    animation: move 4s;
+}
+
+
+@keyframes move {
+
+    0% {
+        transform: translate(0, 0);
+    }
+
+    30% {
+        transform: translate(400px, 0);   
+    }
+    40% {
+        transform: translate(400px, 0);
+    }
+    60% {
+        transform: translate(400px, 300px); 
+    }
+
+    80% {
+        transform: translate(400px, 300px);
+    }
+}
