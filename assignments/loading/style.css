@@ -1,54 +1,25 @@
-body{
-    margin: 0;
-    font-family: 'Arapey', serif;
+body {
+    font-family: 'Sree Krushnadevaraya', sans-serif;
 }
-header {
-    text-align: center;
-    background: purple;
-    padding: 1rem;
+
+h1 {
+    color: rgb(78, 78, 201);
 }
-header h1 {
-    margin-top: 0;
+
+p {
+    color: rgb(36, 99, 80);
 }
-nav a {
-    margin: 1rem;
-    color: rgb(177, 128, 166);
-    font-weight: 500;
-    line-height: 2em;
+
+.purple-border {
+    border: 3rem solid purple;
 }
-nav a:hover{
-    color: rgb(105, 129, 150);
+
+.funky-border {
+    border: 1rem dashed rgb(132, 80, 214);
 }
-main {
-    max-width: 50rem;
-    margin: 0 auto;
-    padding: 0 .5rem;
+
+.absolute {
+    border: 1rem;
+    position: rgb(81, 133, 156);
 }
-section {
-    background: purple;
-    padding: 1rem;
-    border-left: .5rem solid rgb(105, 129, 150);
-}
-section h3 {
-    background: mediumorchid;
-    color: whitesmoke;
-    margin: 0;
-    padding: 1rem;
-}
-section p {
-    background: lightslategrey;
-    color: whitesmoke;
-    margin: 0;
-    padding: 1rem;
-}
-img {
-    margin: 0 auto;
-    display: block;
-    max-width: 100%;
-}
-footer {
-    text-align: center;
-    background: lightblue;
-    color: whitesmoke;
-    padding: 2rem;
-}
+
