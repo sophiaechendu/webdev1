@@ -1,0 +1,51 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .5em;
+  }
+  
+  .gallery img {
+    width: 100%;
+  }
+  
+  @media (max-width: 1050px) {
+    
+    .gallery {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .gallery {
+      grid-template-columns: 1fr;
+    }
+  }
+  .image-card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    display: block;
+    color: black;
+  }
+  
+  .image-card:hover .image-title {
+    opacity: 1;
+  }
+  
+  .image-title {
+    position: absolute;
+    background: #fffd;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    
+    display: grid;
+    place-items: center;
+    transition: all .25s;
+  }
+  
+  img {
+    display: block;
+  }
