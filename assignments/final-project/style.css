@@ -1,5 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Sree+Krushnadevaraya&display=swap');
+
 * {margin: 0; padding: 0;
     box-sizing: border-box;}
+
+header {
+    margin-top: 5em;
+}
+
+.image-card {
+    position: relative;
+    display: block;
+    color: black;
+    font-family: 'Sree Krushnadevaraya', serif;
+}
+
+.image-card:hover .image-title {
+    opacity: 1;
+}
+
+.image-title {
+    position: absolute;
+    background: #fffd;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .25s;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.site-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: white;
+    text-align: center;
+}
+
+.page-title {
+    font-size: 2rem;
+    color: blueviolet;
+}
+
+.absolute {
+    border: 1rem;
+    position: magenta;
+}
+.relative {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background: blue;
+    width: 20px;
+    height: 50px;
+}
+nav a {
+    font-size: 4rem;
+}
 
 main {
     max-width: 700px;
@@ -32,58 +101,5 @@ main {
       grid-template-columns: 1fr;
     }
 
-    .image-card {
-        position: relative;
-        display: block;
-        color: black;
-    }
     
-    .image-card:hover .image-title {
-        opacity: 1;
-    }
-    
-    .image-title {
-        position: absolute;
-        background: #fffd;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        opacity: 0;
-        
-        display: grid;
-        place-items: center;
-        transition: all .25s;
-    }
-
-    img {
-        display: block;
-        width: 100%;
-    }
-
-    .site-title {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 3rem;
-    }
-
-    .page-title {
-        font-size: 2rem;
-        color: blueviolet;
-    }
-
-    .absolute {
-        border: 1rem;
-        position: magenta;
-    }
-    .relative {
-        position: relative;
-        left: 0px;
-        top: 0px;
-        background: blue;
-        width: 20px;
-        height: 50px;
-    }
-    nav a {
-        font-size: 4rem;
-    }
 }
