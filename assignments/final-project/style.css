@@ -5,6 +5,7 @@
 
 header {
     margin-top: 5em;
+    color: rgb(81, 27, 131);
 }
 
 .image-card {
@@ -16,6 +17,7 @@ header {
 
 .image-card:hover .image-title {
     opacity: 1;
+
 }
 
 .image-title {
